@@ -5,6 +5,7 @@ import LoginPage from "./components/AuthPage/loginPage";
 import Profile from "./components/Profile/Profile";
 import CreateRepo from "./components/CreateRepo/CreateRepo";
 import Repo from "./components/RepoView/Repo";
+import SearchPage from "./components/SearchPage/SearchPage";
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/createRepo" element={<CreateRepo />} />
             <Route path="/repoView" element={<Repo />} />
-
+            <Route path="/search" element={<SearchPage />} />
           </Routes>
 
         </Router>
