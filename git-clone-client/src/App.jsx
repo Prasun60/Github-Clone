@@ -7,6 +7,7 @@ import CreateRepo from "./components/CreateRepo/CreateRepo";
 import Repo from "./components/RepoView/Repo";
 import SearchPage from "./components/SearchPage/SearchPage";
 import IssueView from "./components/IssueView/IssueView";
+import PullReqest from "./components/PullRequest/PullRequest";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/repoView" element={<Repo />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/issue" element={<IssueView />} />
+            <Route path="/pullrequest" element={<PullReqest />} />
           </Routes>
 
         </Router>
