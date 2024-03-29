@@ -11,6 +11,8 @@ import PullReqest from "./components/PullRequest/PullRequest";
 import IssueView from "./components/IssueView/IssueView";
 import CreateNewIssue from "./components/CreateNewIssue/CreateNewIssue";
 import EditCode from "./components/EditCode/EditCode";
+import IssueDetails from "./components/IssueDetails/IssueDetails";
+
 
 
 
@@ -24,6 +26,7 @@ const App = () => {
             <Route path="/auth" element={<LoginPage />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/repo" element={<RepositriesPage />} />
+            <Route path="/issueDetails" element={<IssueDetails />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/repoview" element={<Repo />} />
             <Route path="/pullrequest" element={<PullReqest />} />
