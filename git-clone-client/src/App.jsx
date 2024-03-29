@@ -10,6 +10,8 @@ import CreateRepo from "./components/CreateRepo/CreateRepo";
 import PullReqest from "./components/PullRequest/PullRequest";
 import IssueView from "./components/IssueView/IssueView";
 import CreateNewIssue from "./components/CreateNewIssue/CreateNewIssue";
+import EditCode from "./components/EditCode/EditCode";
+
 
 
 const App = () => {
@@ -28,6 +30,7 @@ const App = () => {
             <Route path="/issue" element={<IssueView />} />
             <Route path="/addIssue" element={<CreateNewIssue />} />
             <Route path="/createRepo" element={<CreateRepo />} />
+            <Route path="/editcode" element={<EditCode />} />
           </Routes>
         </Router>
       </div>
