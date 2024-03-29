@@ -12,6 +12,8 @@ import IssueView from "./components/IssueView/IssueView";
 import CreateNewIssue from "./components/CreateNewIssue/CreateNewIssue";
 import EditCode from "./components/EditCode/EditCode";
 import IssueDetails from "./components/IssueDetails/IssueDetails";
+import NotificationPage from "./components/NotificationPage/NotificationPage";
+
 
 
 
@@ -34,6 +36,7 @@ const App = () => {
             <Route path="/addIssue" element={<CreateNewIssue />} />
             <Route path="/createRepo" element={<CreateRepo />} />
             <Route path="/editcode" element={<EditCode />} />
+            <Route path="/notification" element={<NotificationPage />} />
           </Routes>
         </Router>
       </div>
